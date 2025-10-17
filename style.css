@@ -1014,6 +1014,25 @@ img {
         border-bottom: none;
     }
 
+    @media (max-width: 768px) {
+        .header-content {
+            justify-content: center;
+            position: relative;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .mobile-menu-toggle {
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
     .mobile-menu-toggle {
         display: flex;
         z-index: 1002;
